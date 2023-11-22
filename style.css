@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+aside {
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* border: 1px solid black; */
+    height: 100vh;
+    width: 20vw;
+    flex-direction: column;
+    row-gap: -100px;
+    align-items: center;
+
+}
+.xpn {
+    margin-bottom: 10px;
+    margin-left: 45px;
+}
+
+aside .home,.srch,.not,.msg,.lst,.com,.prm,.prf,.mor{
+    margin-top: 12px;
+    margin-left: 50px;
+    color: black;
+}
+a {
+    text-decoration: none;
+}
+
+.btn {
+    width: 180px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: blue;
+    color: white;
+    margin-top: 20px;
+    margin-left: 45px;
+    border: none;
+    opacity: 0.6;
+    cursor: pointer;
+    font-weight: bold;
+}
+.btn:active {
+    opacity: 0.3;
+}
+
+.div{
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-left: 40px;
+    display: flex;
+}
+
+.para{
+    margin-left: 80px;
+    margin-top: -35px;
+}
