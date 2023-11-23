@@ -2,11 +2,15 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 section{
     border: 1px solid black;
-    height: 98vh;
+    height: 200vh;
     width: 99vw;
+    display: flex;
+    justify-content: space-around;
+
 }
 
 aside {
@@ -62,4 +66,35 @@ a {
 .para{
     margin-left: 80px;
     margin-top: -35px;
+}
+
+.top{
+    /* border: 1px solid red; */
+    width: 50vw;
+    height: 200vh;
+}
+.fbox{
+    border: 0.5px solid gainsboro;
+    width: 50vw;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    opacity: 1;
+    
+    
+    
+}
+.fbox div{
+    /* border: 1px solid; */
+    height: 30px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
 }
