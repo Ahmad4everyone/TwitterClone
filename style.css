@@ -2,13 +2,22 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+}
+section{
+    border: 0.1px solid gainsboro;
+    height: 200vh;
+    width: 99vw;
+    display: flex;
+    justify-content: space-around;
+
 }
 
 aside {
     position: fixed;
     top: 0;
     left: 0;
-    /* border: 1px solid black; */
+    border: 1px solid black;
     height: 100vh;
     width: 20vw;
     flex-direction: column;
@@ -57,4 +66,106 @@ a {
 .para{
     margin-left: 80px;
     margin-top: -35px;
+}
+
+.top{
+    /* border: 1px solid red; */
+    width: 50vw;
+    height: 200vh;
+}
+.fbox{
+    border: 0.5px solid gainsboro;
+    width: 50vw;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    
+    
+    
+    
+}
+.fbox div{
+    /* border: 1px solid; */
+    height: 30px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+}
+.sbox{
+    border: 0.1px solid gainsboro;
+     width: 50vw;
+     height: 130px;
+}
+.sbox1{
+    
+    height: 50px;
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+.sbox2 {
+    
+    height: 48px;
+    width: 47vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+   
+
+
+}
+.sbox1 div{
+    
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    border-radius: 50%;
+    background-image: url(image/New\ folder/mako.png);
+    background-size: contain;
+    
+}
+.sbox1 main {
+    
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: gainsboro;
+    font-size: 20px;
+
+}
+.sbox2 div{
+    /* border: 1px solid; */
+    height: 30px;
+    width: 200px;
+    display: flex;
+    align-items:center ;
+    justify-content: space-evenly;
+    margin-left: 50px;
+      
+    
+
+}
+.nbt {
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: blue;
+    color: white;
+    border: none;
+    opacity: 0.6;
+    cursor: pointer;
+    font-weight: bold;
+    
 }
