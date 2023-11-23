@@ -17,7 +17,7 @@ aside {
     position: fixed;
     top: 0;
     left: 0;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 100vh;
     width: 20vw;
     flex-direction: column;
@@ -48,7 +48,7 @@ a {
     margin-top: 20px;
     margin-left: 45px;
     border: none;
-    opacity: 0.6;
+    opacity: 0.5;
     cursor: pointer;
     font-weight: bold;
 }
@@ -153,6 +153,7 @@ a {
     align-items:center ;
     justify-content: space-evenly;
     margin-left: 50px;
+    opacity: 0.5;
       
     
 
@@ -164,7 +165,7 @@ a {
     background-color: blue;
     color: white;
     border: none;
-    opacity: 0.6;
+    opacity: 0.4;
     cursor: pointer;
     font-weight: bold;
     
