@@ -6,7 +6,7 @@ body {
 }
 .first {
     /* border: 1px solid red; */
-    width: 98vw;
+    width:95vw;
     display: flex;
     justify-content: space-between;
 
