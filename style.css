@@ -218,3 +218,70 @@ a {
     height: 30px;
     border-radius: 18px;
 }
+.con5 {
+    /* border: 1px solid gainsboro; */
+    width: 300px;
+    height: 150px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    margin-left: 20px;
+
+}
+
+.con5 h2 {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.con5 p {
+    font-weight: bolder;
+    margin-left: 20px;
+    margin-top: -10px;
+}
+
+.con5 button {
+    height: 40px;
+    width: 120px;
+    background-color: black;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: bolder;
+    margin-left: 20px;
+}
+.con6 {
+    border: 1px solid gainsboro;
+    border: none;
+    width: 300px;
+    height: 800px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-left: 25px;
+
+}
+
+.con6 h2 {
+    margin-left: 10px;
+}
+
+.con6 sub {
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.con6 h4 {
+    margin-left: 20px;
+    margin-top: -12px;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.con6 .sb2 {
+    margin-top: -20px;
+}
+
+.con6 a {
+    margin-left: 30px;
+    text-decoration: none;
+}
