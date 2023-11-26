@@ -6,23 +6,23 @@ body {
 }
 .first {
     /* border: 1px solid red; */
-    width:95vw;
+    width:90vw;
     display: flex;
     justify-content: space-between;
-
+    align-items: center;
+    z-index: 1;
 }
 
 aside {
-    /* position: fixed;
+     /* position: fixed;  */
     top: 0;
-    left: 0; */
+    left: 0; 
     /* border: 1px solid black; */
     height: 100vh;
     width: 20vw;
     flex-direction: column;
     row-gap: -100px;
     align-items: center;
-
 }
 .xpn {
     margin-bottom: 10px;
@@ -73,6 +73,7 @@ a {
      display: flex;
      flex-direction: row;
      justify-content: space-between;
+     margin-left: 30px;
  }
 
 .top{
@@ -94,12 +95,15 @@ a {
     position: sticky;
     top: 0;
     bottom: 0;
-    opacity: 0.6;
+    /* opacity: 0.6; */
     
     
 
 
 
+}
+#man{
+    font-weight: bold;
 }
 .fbox div{
     /* border: 1px solid; */
@@ -133,7 +137,7 @@ a {
     align-items: center;
     justify-content: space-between;
     margin-top: 10px;
-   
+    opacity: 0.5;
 
 
 }
@@ -186,7 +190,7 @@ a {
     border: 0.5px ;
     width: 637px;
     height: 230px;
-    background-color: beige;
+    /* background-color: beige; */
 }
 .post{
     width: 642px;
@@ -198,14 +202,19 @@ a {
 #interactions{
     margin-left: 65px;
 }
+.rightaside{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+
 .con3 {
     /* border: 0.5px solid black; */
     width: 350px;
     height: 50px;
     background-color: white;
-    position: sticky;
-    top: 0;
-    bottom: 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -215,8 +224,10 @@ a {
     background-color: whitesmoke;
     border: none;
     width: 300px;
-    height: 30px;
+    height: 40px;
     border-radius: 18px;
+    position: fixed;
+    font-weight: bold;
 }
 .con5 {
     /* border: 1px solid gainsboro; */
@@ -225,6 +236,7 @@ a {
     background-color: whitesmoke;
     border-radius: 15px;
     margin-left: 20px;
+    opacity: 0.6;
 
 }
 
@@ -284,4 +296,85 @@ a {
 .con6 a {
     margin-left: 30px;
     text-decoration: none;
+}
+@media(max-width: 768px){
+
+    .first{
+        width: 50vw;
+    }
+    .xpn {
+        margin-bottom: 0;
+        margin-left: 20px;
+    }
+    aside .home,.srch,.not,.msg,.lst,.com,.prm,.prf,.mor{
+        margin-top: 8px;
+        margin-left: 30px;
+        color: black;
+    }
+    .btn {
+        width: 90px;
+        height: 20px;
+        border-radius: 30px;
+        background-color: blue;
+        color: white;
+        margin-top: 20px;
+        margin-left: 25px;
+        border: none;
+        opacity: 0.6;
+        cursor: pointer;
+        font-weight: bold;
+    }
+    .div{
+        border-radius: 30px;
+        margin-top: 50px;
+        margin-left: 40px;
+        display: flex;
+    }
+    
+    .para{
+        display: none;
+    }
+    .secound {
+        /* border: 1px solid green; */
+        width: 55vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 30px;
+    }
+    .post{
+        width: 330px;
+        border-radius: 18px;
+    }
+    .news{
+        width: 340px;
+    }
+    #interactions{
+        display: none;
+    }
+    .rightside{
+        display: none;
+    }
+    .init{
+        display: none;
+    }
+    .cons5{
+        display: none;
+    }
+    .con5 h2{
+        display: none;
+    }
+    .con5 p{
+        display: none;
+    }
+    .con5 button{
+        display: none;
+    }
+    .con6, .con6 h2, .con6 sub, .con6 h4{
+        display: none;
+    }
+    .con6 .sb2, .con6 a{
+        display: none;
+    }
 }
