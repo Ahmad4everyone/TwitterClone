@@ -2,22 +2,20 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
     
 }
 .first {
-    /* border: 1px solid red; */
     width:90vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 1;
 }
 
 aside {
      position: fixed; 
     top: 0;
     left: 0; 
-    /* border: 1px solid black; */
     height: 100vh;
     width: 20vw;
     flex-direction: column;
@@ -67,7 +65,6 @@ a {
     margin-top: -35px;
 }
  .secound {
-     /* border: 1px solid green; */
      width: 77vw;
      height: 100vh;
      display: flex;
@@ -77,7 +74,6 @@ a {
  }
 
 .top{
-    /* border: 1px solid red; */
     width: 50vw;
     height: 200vh;
     position: relative;
@@ -190,7 +186,6 @@ a {
     border: 0.5px ;
     width: 637px;
     height: 230px;
-    /* background-color: beige; */
 }
 .post{
     width: 642px;
@@ -200,18 +195,11 @@ a {
     border: none;
 }
 #interactions{
-    margin-left: 65px;
+    margin-left: 60px;
 }
-.rightaside{
-    position: sticky;
-    top: 0;
-    left: 0;
-    z-index: 0;
-}
-
 
 .con3 {
-    /* border: 0.5px solid black; */
+    
     width: 350px;
     height: 50px;
     background-color: white;
@@ -230,7 +218,6 @@ a {
     font-weight: bold;
 }
 .con5 {
-    /* border: 1px solid gainsboro; */
     width: 300px;
     height: 150px;
     background-color: whitesmoke;
@@ -270,6 +257,7 @@ a {
     border-radius: 15px;
     margin-top: 15px;
     margin-left: 25px;
+    opacity: 0.7;
 
 }
 
@@ -309,7 +297,7 @@ a {
     aside .home,.srch,.not,.msg,.lst,.com,.prm,.prf,.mor{
         margin-top: 8px;
         margin-left: 30px;
-        color: black;
+        
     }
     .btn {
         width: 90px;
@@ -335,13 +323,11 @@ a {
         display: none;
     }
     .secound {
-        /* border: 1px solid green; */
         width: 55vw;
         height: 100vh;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        margin-left: 30px;
     }
     .post{
         width: 330px;
@@ -357,6 +343,9 @@ a {
         display: none;
     }
     .init{
+        display: none;
+    }
+    .cons3{
         display: none;
     }
     .cons5{
