@@ -99,7 +99,10 @@ a {
 
 }
 #man{
-    font-weight: bold;
+    font-weight: 500;
+    font-style: italic;
+    color: black;
+    opacity: 0.8;
 }
 .fbox div{
     /* border: 1px solid; */
@@ -133,7 +136,7 @@ a {
     align-items: center;
     justify-content: space-between;
     margin-top: 10px;
-    opacity: 0.5;
+    opacity: 0.9;
 
 
 }
@@ -223,7 +226,7 @@ a {
     background-color: whitesmoke;
     border-radius: 15px;
     margin-left: 20px;
-    opacity: 0.6;
+    opacity: 0.9;
 
 }
 
@@ -257,7 +260,7 @@ a {
     border-radius: 15px;
     margin-top: 15px;
     margin-left: 25px;
-    opacity: 0.7;
+    opacity: 0.9;
 
 }
 
